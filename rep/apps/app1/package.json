@@ -1,0 +1,21 @@
+{
+  "name": "app1",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "type-check": "tsc -noEmit"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "@dp/common-assets": "*",
+    "@repo/ui": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.12.0"
+  }
+}
